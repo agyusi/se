@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .message {
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="message" id="message">Hello World!</div>
+
+    <script>
+        // Menampilkan pesan dalam elemen dengan id "message"
+        const messageElement = document.getElementById("message");
+        messageElement.innerHTML = messageElement.textContent;
+    </script>
+</body>
+
+</html>
